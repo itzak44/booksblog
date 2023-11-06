@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Teko;
+}
+
+.container{
+    min-height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/booksbg.jpg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container img{
+    
+    width: 30%;
+    height: auto;
+  margin: 30px 10px 10px 10px;
+  animation: fade 2s linear infinite;
+  transition: 1s;
+}
+
+.container h2{
+
+text-align: center;
+font-size: 40px;
+text-decoration: underline;
+
+}
+.container h4{
+
+text-align: center;
+font-size: 20px;
+word-spacing: 3px;
+
+}
+
+.container h5{
+
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    
+    }
+.container span{
+    color: rgb(183, 122, 244);
+}    
+    
+
+.container p{
+
+align-items: center;
+text-align: justify;
+font-family: Poppins;
+width: 80%;
+margin: 40px auto;
+font-weight: bolder;
+line-height: 30px;
+word-spacing: 2px;
+letter-spacing: 2px;
+}
+.container p span a {
+ 
+    font-family: Poppins;
+    align-items: center;
+text-align: justify;
+
+width: 80%;
+
+font-weight: bolder;
+line-height: 30px;
+word-spacing: 2px;
+letter-spacing: 2px;
+text-decoration: none;
+color: aqua;
+}
+
+
+
+.container p span a:hover {
+ 
+color: red;
+}
+
+
+
+.container img:hover{
+
+    z-index: 2;
+    transform: scale(1.05);
+}
+
+
+
+
+@keyframes fade{
+
+0%{filter: grayscale(1);}
+50%{filter: grayscale(0);}
+100%{filter: grayscale(1);}
+
+}

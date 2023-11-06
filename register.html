@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+<title>Bookish.com</title>
+<link rel="icon" type="image/x-icon"  href="favicon.ico">
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <form action="">
+              <h1>Register</h1>
+              <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div class="input-box">
+                <input type="email" placeholder="Email Id" required>
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div class="input-box">
+                <input type="number" placeholder="Phone Number" required maxlength="10">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <div class="input-box">
+                <select id="age" required>
+                    <option value="">Select your age</option>
+                    <option value="under18">Under 18</option>
+                    <option value="18to30">18 to 30</option>
+                    <option value="31to50">31 to 50</option>
+                    <option value="over50">Over 50</option>
+                </select>
+
+            </div>
+
+
+            <div class="input-box">
+                <select id="gender" required>
+                    <option value="">Select your Gender</option>
+                    <option value="under18">Male</option>
+                    <option value="18to30">Female</option>
+                    <option value="31to50">Other</option>
+                </select>
+                <i class="fa-solid fa-person"></i>
+            </div>
+
+            <div class="input-box">
+    <input type="text" class="address-input" placeholder="Your Address" required>
+    <i class="fa-solid fa-map-location"></i>
+</div>
+                    
+              <div class="remember-forgot">
+                <label><input type="checkbox">Remember Me</label>
+              </div>
+              <button type="submit" class="btn">Login</button>
+              <div class="register-link">
+                  <p>Already have an account? <a href="login.html">Login</a></p>
+                </div>
+                
+              </div>
+            </form>
+          </div>
+         
+        </div>
+        </body>
+        </html>

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e7e7;
+}
+
+.about-section{
+    background: url(images/aboutbg.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    padding: 100px 0;
+    animation: bganim 10s linear infinite;
+}
+
+.inner-container{
+    width: 60%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    position: relative;
+    animation: shadow 5s linear infinite;
+    transition: 2s;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    
+}
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.inner-container h1:hover{
+
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.inner-container:hover{
+transform: scale(1.2);
+width: 70%;
+background-color: rgba(70, 206, 252, 0.742);
+
+
+}
+
+.socialicons{
+    
+    position: absolute; 
+    bottom: 10px; 
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 50%;
+ 
+ }
+ .socialicons a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: rgba(70, 206, 252, 0.742);
+    transition: 0.5s;
+}
+
+@keyframes bganim{
+
+0%{background: url(images/aboutbg.jpg) no-repeat left;
+
+    background-size: 55%;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    padding: 100px 0;
+    
+
+}
+
+50%{background: url(images/aboutbg2.jpg) no-repeat left;
+
+    background-size: 55%;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    padding: 100px 0;
+    
+}
+
+
+
+}
+

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Teko;
+    
+    
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    background-image: url('https://wallpapers.com/images/hd/minimalist-blue-ihap1cnn3vokw1wp.jpg');
+
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    filter: blur(10px); 
+    z-index: -1;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.mainhead{
+
+    font-family: Poppins;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    background: #2a2a2a;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px ;
+    text-underline-offset: 10px;
+    animation: changecolor 3s linear infinite;
+    
+}
+
+.bookgallery{
+display:flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+margin: 30px 0px;
+
+
+}
+
+
+.bookgallery .card{
+    flex: 1;
+    margin: 20px 40px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+    background: rgba(0, 116, 205, 0.1);
+    backdrop-filter: blur(10px);
+    border: 5px solid  #2a2a2a;
+    border-radius: 10px;
+    
+    
+}
+
+.bookgallery .card img{
+    width: 360px;
+    height: 530px;
+    flex-wrap: wrap;
+    margin: 20px auto;  
+    display: flex;
+    box-shadow: 20px 5px 20px 10px rgba(0,0,0,0.3);
+    border: 5px solid  #FFD700;
+    border-radius: 10px;
+    filter: saturate(0.3);
+    
+    
+
+}
+.bookgallery .card2 h2{
+    text-align: center;
+    font-family: Teko;
+    color:  #FFD700;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-offset: 8px ;
+    
+    
+}
+
+.bookgallery .card2 p{
+text-align: center;
+margin: 10px 10px;
+font-family: Poppins;
+color: #fff;
+word-spacing: 2px;
+line-height: 30px;
+
+
+}
+.bookgallery .card2 p{
+    text-align: justify;
+    
+}
+
+
+.bookgallery .card2 {
+
+background-color: #2a2a2a;
+  padding: 10px 0;
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  margin-top: auto;
+  height: 270px; 
+  border-top:solid 5px  #FFD700;
+}
+
+
+
+
+
+
+.bookgallery .card img:hover {
+    transform: scale(1.2) rotateY(360deg);
+    z-index: 1;
+   transition: 2s;
+filter: saturate(1);
+border: 5px solid  #FFD700;
+}
+
+@keyframes changecolor {
+
+0% { color: #fff;}
+50% {color: rgb(0, 149, 255);}
+0% { color: #fff;}
+
+
+}
+
