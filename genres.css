@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 
 body {
-    background: url('https://wallpapers.com/images/hd/minimalist-blue-ihap1cnn3vokw1wp.jpg') no-repeat center center fixed;
+    background: url(images/bgblue.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 .wrapper{

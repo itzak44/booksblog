@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('https://wallpapers.com/images/hd/minimalist-blue-ihap1cnn3vokw1wp.jpg') no-repeat;
+    background: url(images/bgblue.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
